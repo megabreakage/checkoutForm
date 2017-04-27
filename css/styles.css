@@ -1,17 +1,26 @@
 
 body{
-
+  font-family: 'Merienda', cursive;
+  background-image: url("../assets/onlineCheckout.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #receipt{
   display: none;
 }
-p, h2{
+p, h2, h1{
   text-align: center;
+  color: #ffffff;
+}
+h3, h5{
+  text-align: center;
+  color: #000000;
 }
 .fillForm{
-  float: none;
-  margin: 0 auto;
+  margin-top: 5%;
   padding: 15px;
+  background: rgba(255, 167, 0, 0.5);
+  border-radius: 10px;
 }
 input{
   float: none;

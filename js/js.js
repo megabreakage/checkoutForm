@@ -13,11 +13,13 @@ $(document).ready(function(){
     // output
     $("#customerName").text(fname+" "+lname);
     $("#customerEmail").text(email);
-    $("#customerCell").text(cellNumber);
-    $("#customerAddress").text(
-      address+" "+zipCode+" "+city+" "+country
-    );
-    $("#receipt").show();
+    $("#customerAddress").text(address);
+    $("#customerZipCode").text(zipCode);
+    $("#customerLocation").text(
+      city+", "+country);
+
+    $("#fillForm").hide();
+    $("#receipt").fadeIn(2000);
     event.preventDefault();
   });
 });
